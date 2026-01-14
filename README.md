@@ -8,12 +8,21 @@ A simple VS Code extension that allows you to rename VS Code window instances fo
 - **Persistent Titles**: Titles are saved in workspace settings and persist across sessions
 - **Easy Window Switching**: Quickly identify which VS Code instance you need when Alt+Tabbing
 
-## Usage
+## How to Use
 
-1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
-2. Type "Rename VS Code Instance"
-3. Enter your desired title
-4. The window title will update immediately
+### Step 1: Open the Command Palette
+
+Open the Command Palette using `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac):
+
+![VS Code Command Palette with Rename VS Code Instance command visible](command-pallete-demo.png "Open the Command Palette and search for 'Rename VS Code Instance'")
+
+### Step 2: Enter Your Custom Name
+
+Type a custom name for your VS Code instance when prompted:
+
+![VS Code window title displaying 'YOUR CUSTOM NAME' after renaming](custom-name-demo.png "The window title is updated with your custom name for easy identification")
+
+The window title will update immediately and persist across sessions.
 
 ## Why This Extension?
 
