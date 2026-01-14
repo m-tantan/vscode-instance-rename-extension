@@ -2,6 +2,11 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
 	const disposable = vscode.commands.registerCommand('vscode-instance-rename.rename', async () => {
+		if (!vscode.workspace.workspaceFolders || vscode.workspace.workspaceFolders.length === 0) {
+			vscode.window.showWarningMessage('Please open a folder or workspace first to rename this VS Code instance.');
+			return;
+		}
+
 		const config = vscode.workspace.getConfiguration('window');
 		const currentTitle = config.get<string>('title') || '';
 		
