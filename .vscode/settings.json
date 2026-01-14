@@ -19,5 +19,11 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#6666ff",
-    "window.title": "YOUR CUSTOM NAME"
+    "window.title": "YOUR CUSTOM NAME",
+    "chat.tools.terminal.autoApprove": {
+        "/^git add \\. ; git commit -m \"docs: fix image links and restructure how-to steps with provide-custom-name\\.png image\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }

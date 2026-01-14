@@ -14,13 +14,19 @@ A simple VS Code extension that allows you to rename VS Code window instances fo
 
 Open the Command Palette using `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac):
 
-![VS Code Command Palette with Rename VS Code Instance command visible](command-pallete-demo.png "Open the Command Palette and search for 'Rename VS Code Instance'")
+![VS Code Command Palette with Rename VS Code Instance command visible](assets/command-palette-demo.png "Open the Command Palette and search for 'Rename VS Code Instance'")
 
-### Step 2: Enter Your Custom Name
+### Step 2: Provide Your Custom Name
 
 Type a custom name for your VS Code instance when prompted:
 
-![VS Code window title displaying 'YOUR CUSTOM NAME' after renaming](custom-name-demo.png "The window title is updated with your custom name for easy identification")
+![Provide custom name](assets/provide-custom-name.png)
+
+### Step 3: Confirm the Change
+
+Your custom name is applied and persists across sessions:
+
+![VS Code window title displaying 'YOUR CUSTOM NAME' after renaming](assets/custom-name-demo.png "The window title is updated with your custom name for easy identification")
 
 The window title will update immediately and persist across sessions.
 
