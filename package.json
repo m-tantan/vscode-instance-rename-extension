@@ -2,7 +2,7 @@
   "name": "vscode-instance-rename",
   "displayName": "VS Code Instance Rename",
   "description": "Rename VS Code window instances for easier identification when running multiple instances",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "WrecklessEngineer",
   "icon": "./assets/icon.png",
   "repository": {

@@ -5,6 +5,13 @@ All notable changes to the "VS Code Instance Rename" extension will be documente
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-01-14
+
+### Fixed
+- Fixed broken image links in README (removed dot prefix from assets folder references)
+- Restructured "How to Use" section with three distinct steps
+- Added new step showing the custom name input prompt screen
+
 ## [0.1.0] - 2026-01-14
 
 ### Added
